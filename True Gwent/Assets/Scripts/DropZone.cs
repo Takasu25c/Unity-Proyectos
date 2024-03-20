@@ -8,8 +8,8 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
   public Draggable.Slot typeofItem = Draggable.Slot.HANDCARD;
   public void OnPointerEnter(PointerEventData eventData){
     Debug.Log("OnPointerEnter");
-  }
-  public void OnPointerExit(PointerEventData eventData){
+      }
+    public void OnPointerExit(PointerEventData eventData){
     Debug.Log("OnPointerExit");  }
   public void OnDrop(PointerEventData eventData){
     Debug.Log ("On Drop To");
@@ -21,3 +21,4 @@ public class DropZone : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPoin
         }
   }
 }
+
