@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
+using Unity.VisualScripting;
 public class ThisCard : MonoBehaviour
 {
     public List<Card> thisCard = new List<Card>(); 
@@ -43,6 +44,5 @@ public class ThisCard : MonoBehaviour
         factionText.text = ""+ faction;
         typeText.text = ""+ cardType;
         thatimage.sprite = thisSprite;
-    
     }
 }

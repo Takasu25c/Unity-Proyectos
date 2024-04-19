@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 [System.Serializable]
-public class Card : MonoBehaviour
+public class Card
 {
    public int id;
    public string cardName;

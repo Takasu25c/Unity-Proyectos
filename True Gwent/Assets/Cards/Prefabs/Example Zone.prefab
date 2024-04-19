@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5635069209966973707}
   - component: {fileID: 7917586101873353397}
   - component: {fileID: 1771081530613606294}
-  - component: {fileID: 399745332151081575}
   m_Layer: 5
   m_Name: Example Zone
   m_TagString: Untagged
@@ -76,16 +75,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &399745332151081575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2751549966435736510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44a53afe0ff1828479f2c965d43fb510, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  typeofItem: 0
